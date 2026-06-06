@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import './index.css'
 import App from './App'
 import "./leafletFix";
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <App />
